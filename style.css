@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  canvas {
+    display: block;
+  }
+  
+  #controls {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(86, 86, 86, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+    max-height: 90vh;
+    overflow-y: auto;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .slider-container {
+    margin-bottom: 10px;
+  }
+  
+  #pauseButton {
+    display: block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #8b8686;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #popup {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    display: none;
+    pointer-events: none;
+    z-index: 999;
+  }
+  
